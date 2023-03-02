@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+	font-family: "Press Start 2P";
+	color: rgb(45, 217, 55);
+	margin: 0px;
+    background: url(bg.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+    background-position: center;
+	background-attachment: fixed;
+	height: 100vh;
+	width: 100vh;
+}
+
+p:hover{
+	background-color: white;
+	opacity: .6;
+}
+
+a:link {
+  color: rgb(45, 217, 55);
+  background-color: transparent;
+  text-decoration: underliine;
+}
+
+a:visited {
+  color: rgb(45, 217, 55);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+:nth-child(n + 13){
+	color: rgb(255, 0, 0);
