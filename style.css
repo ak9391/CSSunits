@@ -15,6 +15,7 @@ body{
 
 p:hover{
 	background-color: white;
+	color: black;
 	opacity: .6;
 }
 
@@ -31,7 +32,7 @@ a:visited {
 }
 
 a:hover {
-  color: white;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
 }
